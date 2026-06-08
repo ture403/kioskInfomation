@@ -1,0 +1,175 @@
+:root {
+  /* Blue */
+  --blue-0:   #F8FBFF;
+  --blue-100: #E8F1FC;
+  --blue-200: #D0DDF8;
+  --blue-300: #AFC4F1;
+  --blue-400: #82A2E7;
+  --blue-500: #308AFF;
+  --blue-600: #08418B;
+  --blue-700: #062F63;
+  --blue-800: #001E46;
+  --blue-900: #000B28;
+
+  /* Gray */
+  --gray-0:   #FFFFFF;
+  --gray-100: #F6F7F9;
+  --gray-125: #F2F4F9;
+  --gray-150: #F2F3F5;
+  --gray-200: #E9ECEF;
+  --gray-300: #E2E6EB;
+  --gray-400: #DADDE4;
+  --gray-500: #CACACA;
+  --gray-600: #A2A9B4;
+  --gray-700: #767C88;
+  --gray-800: #42474F;
+  --gray-900: #282828;
+
+  /* Green */
+  --green-0:   #F8FFFC;
+  --green-100: #E7FCF6;
+  --green-200: #C2F0E8;
+  --green-300: #80F3E0;
+  --green-400: #3AE3C0;
+  --green-500: #44DAB1;
+  --green-600: #39B695;
+  --green-700: #009F72;
+  --green-800: #007151;
+  --green-900: #003D2C;
+
+  /* Orange */
+  --orange-0:   #FFF8F5;
+  --orange-100: #FCEDE6;
+  --orange-200: #F8D0C0;
+  --orange-300: #F5AC95;
+  --orange-400: #F98075;
+  --orange-500: #F96019;
+  --orange-600: #BB4108;
+  --orange-700: #735A45;
+  --orange-800: #594534;
+  --orange-900: #260C00;
+
+  /* Yellow */
+  --yellow-0:   #FFF9E9;
+  --yellow-100: #FFF7E0;
+  --yellow-200: #FFF0C7;
+  --yellow-300: #FFE8A9;
+  --yellow-400: #FFE394;
+  --yellow-500: #FFD767;
+  --yellow-600: #FFC72B;
+  --yellow-700: #FEC255;
+  --yellow-800: #FFAE00;
+  --yellow-900: #CEA757;
+
+  /* Purple */
+  --purple-0:   #FCF8FF;
+  --purple-100: #F7E6FC;
+  --purple-200: #E0BDF8;
+  --purple-300: #E1A7F1;
+  --purple-400: #C3BEF2;
+  --purple-500: #B428D8;
+  --purple-600: #8E08BB;
+  --purple-700: #6E0093;
+  --purple-800: #480060;
+  --purple-900: #1D0026;
+
+  /*  Red */
+  --red-0:   #FFF5F5;
+  --red-100: #FCE6E6;
+  --red-200: #F8D0D0;
+  --red-300: #F1AFAF;
+  --red-400: #E78282;
+  --red-500: #EE5D5D;
+  --red-600: #D80000;
+  --red-700: #930000;
+  --red-800: #600000;
+  --red-900: #290000;
+
+  /* Text */
+  --text-primary: var(--yellow-700);
+  --text-secondary: var(--orange-800);
+  --text-base: var(--gray-900);
+  --text-inverse: var(--gray-0);
+  --text-neutral: var(--gray-700);
+  --text-neutral-soft: var(--gray-500);
+  --text-disabled: var(--gray-300);
+
+
+  /* Icon */
+  --icon-primary: var(--yellow-700);
+  --icon-secondary: var(--orange-700);
+  --icon-neutral: var(--gray-600);
+  --icon-neutral-soft: var(--gray-500);
+  --icon-disabled: var(--gray-300);
+
+  /* Surface */
+  --surface-primary: var(--yellow-700);
+  --surface-primary-base: var(--yellow-900);
+  --surface-primary-soft: var(--yellow-100);
+  --surface-neutral-soft: var(--gray-100);
+  --surface-neutral: var(--gray-200);
+  --surface-base: var(--gray-0);
+  --surface-secondary: var(--orange-800);
+  --surface-negative: var(--red-500);
+  --surface-negative-soft: var(--red-400);
+  --surface-warning: var(--red-500);
+  --surface-positive: var(--green-600);
+
+
+  /* Border-radius */
+    --radius-tiny: 0.4rem;
+    --radius-small: 0.6rem;
+    --radius-medium: 1rem;
+    --radius-base: 1.2rem;
+    --radius-large: 1.6rem;
+    --radius-xlarge: 2.0rem;    
+    --radius-full: 9999px;
+    --radius-half: 50%;
+
+
+  /* Font Family*/
+  --font-base: 'Pretendard', -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, 'Apple SD Gothic Neo',
+  'Noto Sans KR', Arial, sans-serif;
+
+  --font-family-primary: 'Pretendard', -apple-system, sans-serif;
+  --font-size-base: 1.6rem;
+
+  /* Letter Spacing */
+  --ls-tight: -0.05em; /* -0.5px 기준 */
+  --ls-normal: 0;
+
+  /* Header Styles */
+  --header-52: 700 52px/140% var(--font-family-primary);
+  --header-48: 700 48px/140% var(--font-family-primary);
+  --header-44: 700 44px/140% var(--font-family-primary);
+  --header-40: 700 40px/140% var(--font-family-primary);
+  --header-36: 700 36px/140% var(--font-family-primary);
+  --header-32: 700 32px/140% var(--font-family-primary);
+  --header-m-32: 500 32px/140% var(--font-family-primary);
+  --header-28: 700 28px/140% var(--font-family-primary);
+  --header-m-28: 500 28px/140% var(--font-family-primary);
+  --header-24: 700 24px/140% var(--font-family-primary);
+  --header-m-24: 500 24px/140% var(--font-family-primary);
+  --header-22: 700 22px/140% var(--font-family-primary);
+  --header-20: 700 20px/140% var(--font-family-primary);
+  --header-m-20: 500 20px/140% var(--font-family-primary);
+  --header-18: 700 18px/140% var(--font-family-primary);
+
+
+  /* Body Styles */
+  --body-16: 700 16px/140% var(--font-family-primary);
+  --body-sb-16: 600 16px/140% var(--font-family-primary);
+  --body-m-16: 500 16px/140% var(--font-family-primary);
+  --body-15: 700 15px/100% var(--font-family-primary);
+  --body-sb-15: 600 15px/140% var(--font-family-primary);
+  --body-m-15: 500 15px/140% var(--font-family-primary);
+  --body-r-15: 400 15px/150% var(--font-family-primary);
+  --body-14: 700 14px/140% var(--font-family-primary);
+  --body-sb-14: 600 14px/140% var(--font-family-primary);
+  --body-m-14: 500 14px/140% var(--font-family-primary);
+  --body-r-14: 400 14px/140% var(--font-family-primary);
+
+
+}
+
