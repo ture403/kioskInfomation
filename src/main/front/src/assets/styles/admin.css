@@ -28,7 +28,7 @@
 .logo-shinhan {
     display:inline-block;
     padding: 20px 60px;
-    background: url("../images/header-logo.png") 0 50% no-repeat;
+    /* background: url("../images/header-logo.png") 0 50% no-repeat; */
     background-size: contain;
 }
 
