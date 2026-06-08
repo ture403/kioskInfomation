@@ -58,7 +58,7 @@ function Header() {
 
   return (
     <header className="public-header">
-      <div className="logo-area"></div>
+      <div className="logo-area">kiosk infomation</div>
       <div className="header-info">
         <span className="date-time">{currentTime}</span>
         {weather.temperature !== "-" && (
